@@ -1,0 +1,7 @@
+create database sistema;
+
+use sistema;
+
+create table user(id int primary key auto_increment, login varchar(30), senha varchar(40));
+
+create table task(id int primary key auto_increment, nome varchar(100), descricao varchar(800), arquivo varchar(40));
